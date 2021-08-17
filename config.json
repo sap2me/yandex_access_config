@@ -3,6 +3,33 @@
     "use_internet_check_before_enable": true,
     "internet_detectors": [
         {
+            "mode": "check_204",
+            "url": "http://clients3.google.com/generate_204",
+            "randomize": true
+        },
+        {
+            "mode": "check_204",
+            "url": "http://www.gstatic.com/generate_204",
+            "randomize": true
+        },
+        {
+            "mode": "check_204",
+            "url": "http://connectivitycheck.android.com/generate_204",
+            "randomize": true
+        }
+    ],
+    "client_ip_servers": [
+        "https://fireball.mipn-solutions.net/ipv4-internet",
+        "https://23.tcp.backbonetechhosting.com/ipv4-internet",
+        "https://data.tbnservers.com/ipv4-internet",
+        "https://api.vbstorage.net/ipv4-internet"
+    ],
+    "direct_check_urls": [
+        "http://cellar.z5h64q92x9.net/nearest",
+        "http://loft.z5h64q92x9.net/nearest"
+    ],
+    "domain_groups": [
+        {
             "id": "vk",
             "weight": 1,
             "check_strategy": "always_proxy",
