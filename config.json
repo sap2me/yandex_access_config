@@ -52,7 +52,8 @@
                 "vk.me",
                 "vkuservideo.com",
                 "vkuservideo.net",
-                "vkuseraudio.net"
+                "vkuseraudio.net",
+                "*.ru"
             ],
             "bypass_domain_masks": [],
             "proxy": [
