@@ -53,7 +53,9 @@
                 "vkuservideo.com",
                 "vkuservideo.net",
                 "vkuseraudio.net",
-                "*.ru"
+                "*.ru,
+                ".ru",
+                "ru"
             ],
             "bypass_domain_masks": [],
             "proxy": [
